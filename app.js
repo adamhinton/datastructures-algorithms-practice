@@ -12,4 +12,13 @@
 // singly/doubly linked lists
 
 // why learn this?
-// we'll learn to implement ds as classesa
+// we'll learn to implement ds as classes
+
+// how to:
+
+class Student {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+}
