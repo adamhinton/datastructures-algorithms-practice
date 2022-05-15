@@ -6,7 +6,10 @@
 // objs:
 // understand classes
 // understand how js impl idea of classes
-//use es2015 to imp DS
+// use es2015 to imp DS
 
 // ex:
-//singly/doubly linked lists
+// singly/doubly linked lists
+
+// why learn this?
+// we'll learn to implement ds as classesa
