@@ -20,6 +20,7 @@ class Student {
   constructor(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
+    this.year = year;
   }
 }
 //mtd to make new objs must be called constructor
