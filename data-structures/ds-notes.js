@@ -8,3 +8,5 @@
 // You've worked with many unknowingly, like hash tables or the DOM which involves interacting with a tree.
 // These are the fodder of many an interview.
 // There's no one best DS
+// Don't get overwhelmed trying to master it all at once.
+// There is a LOT to this. You'll get burned out.
