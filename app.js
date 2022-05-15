@@ -22,3 +22,11 @@ class Student {
     this.lastName = lastName;
   }
 }
+//mtd to make new objs must be called constructor
+//class kw makes const, so cant redefine it. Watch out for syntax
+
+// make new objects from classes:
+// use new keyword
+
+let firstStudent = new Student("Colt", "Steele");
+let secondStudent = new Student("Blue", "steele");
