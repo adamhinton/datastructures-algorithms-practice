@@ -7,3 +7,6 @@
 // understand classes
 // understand how js impl idea of classes
 //use es2015 to imp DS
+
+// ex:
+//singly/doubly linked lists
