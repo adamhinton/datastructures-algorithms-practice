@@ -17,7 +17,7 @@
 // how to:
 
 class Student {
-  constructor(firstName, lastName) {
+  constructor(firstName, lastName, year) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.year = year;
@@ -29,5 +29,7 @@ class Student {
 // make new objects from classes:
 // use new keyword
 
-let firstStudent = new Student("Colt", "Steele");
+let firstStudent = new Student("Colt", "Steele", 1996);
 let secondStudent = new Student("Blue", "steele");
+
+console.log("firstStudent:", firstStudent);
