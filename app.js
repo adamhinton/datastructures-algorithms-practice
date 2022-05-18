@@ -42,6 +42,9 @@ class Student {
     const sum = this.scores.reduce((total, current) => (total += current));
     return sum / this.scores.length;
   }
+  static EnrollStudents() {
+    return "Enrolling Students";
+  }
 }
 //mtd to make new objs must be called constructor
 //class kw makes const, so cant redefine it. Watch out for syntax
