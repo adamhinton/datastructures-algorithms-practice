@@ -28,6 +28,9 @@ class Student {
   }
   markLate() {
     this.tardies++;
+    if (this.tardies >= 3) {
+      return "You are expelled!";
+    }
     return `${this.firstName} ${this.lastName} has been late ${this.tardies} times`;
   }
 }
@@ -43,4 +46,6 @@ let kitty = new Student("Kitty", "Kat", 1);
 
 // console.log("firstStudent:", firstStudent);
 console.log("kitty:", kitty);
+console.log("kitty.markLate():", kitty.markLate());
+console.log("kitty.markLate():", kitty.markLate());
 console.log("kitty.markLate():", kitty.markLate());
