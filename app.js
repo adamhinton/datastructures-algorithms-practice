@@ -14,7 +14,10 @@ class SinglyLinkedList {
     this.tail = null;
     this.length = 0;
   }
-  push(val) {}
+  push(val) {
+    this.tail = val;
+    this.length++;
+  }
 }
 
 // // this is what we want eventually
