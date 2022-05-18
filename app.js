@@ -29,9 +29,9 @@ class Student {
 // make new objects from classes:
 // use new keyword
 
-let firstStudent = new Student("Colt", "Steele", 1996);
-let secondStudent = new Student("Blue", "steele");
-let kitty = new Student("Kitty", "Kat", 1);
+// let firstStudent = new Student("Colt", "Steele", 1996);
+// let secondStudent = new Student("Blue", "steele");
+// let kitty = new Student("Kitty", "Kat", 1);
 
-console.log("firstStudent:", firstStudent);
-console.log("kitty:", kitty);
+// console.log("firstStudent:", firstStudent);
+// console.log("kitty:", kitty);
