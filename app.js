@@ -42,6 +42,7 @@ class Student {
     const sum = this.scores.reduce((total, current) => (total += current));
     return sum / this.scores.length;
   }
+  // this is a class method
   static EnrollStudents() {
     return "Enrolling Students";
   }
@@ -55,3 +56,5 @@ class Student {
 // let firstStudent = new Student("Colt", "Steele", 1996);
 // let secondStudent = new Student("Blue", "steele");
 let kitty = new Student("Kitty", "Kat", 1);
+
+console.log("Student.EnrollStudents():", Student.EnrollStudents());
