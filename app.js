@@ -11,3 +11,8 @@ class Node {
 class SinglyLinkedList {
   constructor() {}
 }
+
+// // this is what we want eventually
+// const list = new SinglyLinkedList();
+// list.push("Hello");
+// list.push("Goobye");
