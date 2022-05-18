@@ -11,3 +11,7 @@ class Node {
 const first = new Node("Hi");
 first.next = new Node("there");
 first.next.next = new Node("there");
+
+console.log("first:", first);
+
+console.log("blah blah blah");
