@@ -9,3 +9,5 @@
 // its pointer points to another node
 // Head is first, tail is the end.
 // also keep track of length of LL
+
+// Basically it's just a bunch of nodes pointing to the next node.
