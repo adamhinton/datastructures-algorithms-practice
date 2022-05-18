@@ -36,6 +36,7 @@ class Student {
   }
   addScore(score) {
     this.scores.push(score);
+    return this.scores;
   }
 }
 //mtd to make new objs must be called constructor
@@ -53,3 +54,7 @@ console.log("kitty:", kitty);
 console.log("kitty.markLate():", kitty.markLate());
 console.log("kitty.markLate():", kitty.markLate());
 console.log("kitty.markLate():", kitty.markLate());
+
+console.log("kitty.scores:", kitty.scores);
+
+console.log("kitty.addScore(66):", kitty.addScore(66));
