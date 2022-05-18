@@ -26,6 +26,10 @@ class Student {
   fullName() {
     return `Your full name is ${this.firstName} ${this.lastName}`;
   }
+  markLate() {
+    this.tardies++;
+    return `${this.firstName} ${this.lastName} has been late ${this.tardies} times`;
+  }
 }
 //mtd to make new objs must be called constructor
 //class kw makes const, so cant redefine it. Watch out for syntax
