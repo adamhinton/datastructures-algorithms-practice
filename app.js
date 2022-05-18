@@ -52,10 +52,3 @@ class Student {
 // let firstStudent = new Student("Colt", "Steele", 1996);
 // let secondStudent = new Student("Blue", "steele");
 let kitty = new Student("Kitty", "Kat", 1);
-
-console.log("kitty.scores:", kitty.scores);
-
-console.log("kitty.addScore(66):", kitty.addScore(55));
-console.log("kitty.addScore(66):", kitty.addScore(57));
-
-console.log("kitty.calculateAverage():", kitty.calculateAverage());
