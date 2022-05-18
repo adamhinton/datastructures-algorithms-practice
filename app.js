@@ -49,12 +49,6 @@ class Student {
 // let secondStudent = new Student("Blue", "steele");
 let kitty = new Student("Kitty", "Kat", 1);
 
-// console.log("firstStudent:", firstStudent);
-console.log("kitty:", kitty);
-console.log("kitty.markLate():", kitty.markLate());
-console.log("kitty.markLate():", kitty.markLate());
-console.log("kitty.markLate():", kitty.markLate());
-
 console.log("kitty.scores:", kitty.scores);
 
 console.log("kitty.addScore(66):", kitty.addScore(66));
