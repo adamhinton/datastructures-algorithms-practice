@@ -15,7 +15,11 @@ class SinglyLinkedList {
     this.length = 0;
   }
   push(val) {
-    this.tail = new Node(val);
+    const newNode = new Node(val);
+    if (!this.head) {
+      this.head = newNode;
+    }
+    this.tail = newNode;
     this.length++;
   }
 }
