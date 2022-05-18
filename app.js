@@ -14,3 +14,15 @@
 
 // searching/inserting in middle frex is O(n)
 // inserting at beginning or end is O(1)
+
+// Comparisons with array:
+
+// LISTS:
+// no indexes
+//connected via nodes with a "next" pointer
+// Random access not allowed
+
+// ARRAYS:
+// Indexed in order
+// insertion and deletion can be expensive
+// can quickly be accessed at a specific index
