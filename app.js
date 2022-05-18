@@ -8,7 +8,6 @@ class Node {
   }
 }
 
-// const first = new Node("Hi");
-// first.next = new Node("there");
-// first.next.next = new Node("how");
-// first.next.next.next = new Node("are");
+class SinglyLinkedList {
+  constructor() {}
+}
