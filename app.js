@@ -39,9 +39,7 @@ class Student {
     return this.scores;
   }
   calculateAverage() {
-    const sum = this.scores.reduce((total, current) => {
-      return (total += current);
-    });
+    const sum = this.scores.reduce((total, current) => (total += current));
     return sum / this.scores.length;
   }
 }
