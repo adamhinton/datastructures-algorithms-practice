@@ -26,3 +26,5 @@
 // Indexed in order
 // insertion and deletion can be expensive
 // can quickly be accessed at a specific index
+
+// LLs are really good at insertion and deletion. Esp since in arrays, inserting at beginning can run in to nasty time complexity.
