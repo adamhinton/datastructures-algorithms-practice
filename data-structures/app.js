@@ -7,3 +7,7 @@ class Node {
     this.next = null;
   }
 }
+
+const first = new Node("Hi");
+first.next = new Node("there");
+first.next.next = new Node("there");
