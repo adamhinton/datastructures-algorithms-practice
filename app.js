@@ -11,3 +11,6 @@
 // also keep track of length of LL
 
 // Basically it's just a bunch of nodes pointing to the next node.
+
+// searching/inserting in middle frex is O(n)
+// inserting at beginning or end is O(1)
