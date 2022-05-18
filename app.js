@@ -28,3 +28,10 @@ class SinglyLinkedList {
 // const list = new SinglyLinkedList();
 // list.push("Hello");
 // list.push("Goobye");
+
+// PUSH pseudocode:
+// This fxn should accept a val
+// make a new node using val passed to fxn
+// if no head prop, set head and tail to new node
+// otherwise, set next prop on tail to be new node and set tail to be the new node
+// length ++
