@@ -11,4 +11,7 @@
 // Don't get overwhelmed trying to master it all at once.
 // There is a LOT to this. You'll get burned out if you go too fast.
 
-//
+//class methods:
+//use static kw in front of mtd def
+//can't be called with class instance
+// it's a utility fxn
