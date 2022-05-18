@@ -24,11 +24,6 @@ class SinglyLinkedList {
   }
 }
 
-// // this is what we want eventually
-// const list = new SinglyLinkedList();
-// list.push("Hello");
-// list.push("Goobye");
-
 // PUSH pseudocode:
 // This fxn should accept a val
 // make a new node using val passed to fxn
