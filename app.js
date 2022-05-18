@@ -38,6 +38,12 @@ class Student {
     this.scores.push(score);
     return this.scores;
   }
+  calculateAverage() {
+    const sum = this.scores.reduce((total, current) => {
+      return (total += current);
+    });
+    return sum / this.scores.length;
+  }
 }
 //mtd to make new objs must be called constructor
 //class kw makes const, so cant redefine it. Watch out for syntax
@@ -51,4 +57,7 @@ let kitty = new Student("Kitty", "Kat", 1);
 
 console.log("kitty.scores:", kitty.scores);
 
-console.log("kitty.addScore(66):", kitty.addScore(66));
+console.log("kitty.addScore(66):", kitty.addScore(55));
+console.log("kitty.addScore(66):", kitty.addScore(57));
+
+console.log("kitty.calculateAverage():", kitty.calculateAverage());
