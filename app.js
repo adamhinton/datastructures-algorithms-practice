@@ -22,6 +22,7 @@ class Student {
     this.lastName = lastName;
     this.year = year;
     this.tardies = 0;
+    this.scores = [];
   }
   fullName() {
     return `Your full name is ${this.firstName} ${this.lastName}`;
