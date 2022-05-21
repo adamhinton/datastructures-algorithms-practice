@@ -34,3 +34,6 @@ class SinglyLinkedList {
 // if no head prop, set head and tail to new node
 // otherwise, set next prop on tail to be new node and set tail to be the new node
 // length ++
+
+// POP:
+// Not so simple because we have to go back thru the whole list and find the previous item.
