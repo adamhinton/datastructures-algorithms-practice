@@ -45,3 +45,11 @@ class SinglyLinkedList {
 //     current = curren.next
 //   }
 // };
+
+// POP pseudocode:
+// if no nodes return undef
+// loop thru until reach tail
+// set next prop of 2nd to last node to be null
+// set tail to be 2nd from last node
+// length --
+// return val of node removed
