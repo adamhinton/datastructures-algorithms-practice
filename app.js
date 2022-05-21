@@ -45,6 +45,8 @@ class SinglyLinkedList {
     }
     return current;
   }
+
+  shift() {}
 }
 
 // PUSH pseudocode:
