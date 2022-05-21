@@ -49,6 +49,13 @@ class SinglyLinkedList {
   shift() {}
 }
 
+// SHIFT Pseudocode:
+// If no nodes, ret undef
+// store current head prop in var
+// set head to be current head's next prop
+// length--
+// ret val of node removed
+
 // PUSH pseudocode:
 // This fxn should accept a val
 // make a new node using val passed to fxn
@@ -79,10 +86,3 @@ class SinglyLinkedList {
 // Shift:
 // remove node from beg of LL
 // just remove head, change head to next
-
-// SHIFT Pseudocode:
-// If no nodes, ret undef
-// store current head prop in var
-// set head to be current head's next prop
-// length--
-// ret val of node removed
