@@ -38,3 +38,10 @@ class SinglyLinkedList {
 // POP:
 // Not so simple because we have to go back thru the whole list and find the previous item.
 // The traversing bit is fairly simple, just loop thru.
+// traverse(){
+//   const current = this.head;
+//   while(current){
+//     console.log('current.val:', current.val);
+//     current = curren.next
+//   }
+// };
