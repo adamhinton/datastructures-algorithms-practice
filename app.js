@@ -66,3 +66,4 @@ class SinglyLinkedList {
 // set tail to be 2nd from last node
 // length --
 // return val of node removed
+// When there's only one item left in the list and you remove it, set tail and head to be null
