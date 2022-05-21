@@ -34,6 +34,8 @@ class SinglyLinkedList {
       newTail = current;
       current = current.next;
     }
+    this.tail = newTail;
+    this.tail.next = null;
   }
 }
 
