@@ -37,3 +37,4 @@ class SinglyLinkedList {
 
 // POP:
 // Not so simple because we have to go back thru the whole list and find the previous item.
+// The traversing bit is fairly simple, just loop thru.
