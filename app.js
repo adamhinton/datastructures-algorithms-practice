@@ -14,6 +14,7 @@ class SinglyLinkedList {
     this.tail = null;
     this.length = 0;
   }
+
   push(val) {
     const newNode = new Node(val);
     if (!this.head) {
@@ -26,6 +27,7 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
+
   pop() {
     if (!this.head) return undefined;
     let current = this.head;
