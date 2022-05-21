@@ -48,6 +48,7 @@ class SinglyLinkedList {
 
   shift() {
     if (this.length === 0) return undefined;
+    // oldHead or removedHead might have been a better name
     let currentHead = this.head;
     this.head = currentHead.next;
     this.length--;
