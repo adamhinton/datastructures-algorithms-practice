@@ -54,6 +54,8 @@ class SinglyLinkedList {
     this.length--;
     return currentHead;
   }
+
+  unshift(val) {}
 }
 
 // SHIFT Pseudocode:
