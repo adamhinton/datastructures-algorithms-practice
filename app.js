@@ -63,6 +63,8 @@ class SinglyLinkedList {
     }
     newNode.next = this.head;
     this.head = newNode;
+    length++;
+    return this;
   }
 }
 
