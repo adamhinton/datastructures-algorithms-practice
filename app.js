@@ -55,7 +55,13 @@ class SinglyLinkedList {
     return currentHead;
   }
 
-  unshift(val) {}
+  unshift(val) {
+    const newNode = new Node(val);
+    if (!head) {
+      this.head = newNode;
+      this.tail = this.head;
+    }
+  }
 }
 
 // SHIFT Pseudocode:
