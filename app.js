@@ -93,3 +93,12 @@ class SinglyLinkedList {
 // Shift:
 // remove node from beg of LL
 // just remove head, change head to next
+
+// Unshift pseudocode:
+// accept val
+// make new node with val passed to fxn
+// if no head, set head and tail to new node
+// Otherwise, set new node's next property to be current head
+// Set head property to be the new node
+// length ++
+// return linked list
